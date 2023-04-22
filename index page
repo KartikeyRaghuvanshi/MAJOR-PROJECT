@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        div{
+            text-align: center;
+        }
+       a{
+        align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <a href="home.html">Home</a>
+    <a href="about.html">about</a>
+    <h1>PARKINSON DISEASE</h1>
+    <br><br>
+    <div>
+       <label for="MDVP:Fo(Hz)">MDVP:Fo(Hz)</label>
+       <input id= "MDVP:Fo(Hz)" type="text" placeholder="average vocal fundamental frequency">
+       <br><br>
+       <label for="MDVP:Fhi(Hz)">MDVP:Fhi(Hz)</label>
+       <input id= "MDVP:Fhi(Hz)" type="text" placeholder="maximum vocal fundamental frequency">
+       <br><br>
+       <label for="MDVP:Flo(Hz)">MDVP:Flo(Hz)</label>
+       <input id= "MDVP:Flo(Hz)" type="text" placeholder="Minimum vocal fundamental frequency">
+       <br><br>
+       <label for="MDVP:Jitter(%)">MDVP:Jitter(%)</label>
+       <input id= "MDVP:Jitter(%)" type="text" placeholder="Several measures of variation in fundamental frequency">
+       <br><br>
+       <label for="MDVP:Jitter(Abs)">MDVP:Jitter(Abs)</label>
+       <input id= "MDVP:Jitter(Abs)" type="text" placeholder="Several measures of variation in fundamental frequency">
+       <br><br>
+       <label for="MDVP:RAP">MDVP:RAP</label>
+       <input id= "MDVP:RAP" type="text" placeholder="Several measures of variation in fundamental frequency">
+       <br><br>
+       <label for="MDVP:PPQ">MDVP:PPQ</label>
+       <input id= "MDVP:PPQ" type="text" placeholder="Several measures of variation in fundamental frequency">
+       <br><br>
+       <label for="Jitter:DDP">Jitter:DDP</label>
+       <input id= "Jitter:DDP" type="text" placeholder="Several measures of variation in fundamental frequency">
+       <br><br>
+       <label for="MDVP:Shimmer">MDVP:Shimmer</label>
+       <input id= "MDVP:Shimmer" type="text" placeholder="Several measures of variation in amplitude">
+       <br><br>
+       <label for="MDCP:Shimmer(dB)">MDCP:Shimmer(dB)</label>
+       <input id= "MDCP:Shimmer(dB)" type="text" placeholder="Several measures of variation in amplitude">
+       <br><br>
+       <label for="Shimmer:APQ3">Shimmer:APQ3</label>
+       <input id= "Shimmer:APQ3" type="text" placeholder="Several measures of variation in amplitude">
+       <br><br>
+       <label for="Shimmer:APQ5">Shimmer:APQ5</label>
+       <input id= "Shimmer:APQ5" type="text" placeholder="Several measures of variation in amplitude">
+       <br><br>
+       <label for="MDVP:APQ">MDVP:APQ</label>
+       <input id= "MDVP:APQ" type="text" placeholder="Several measures of variation in amplitude">
+       <br><br>
+       <label for="Shimmer:DDA">Shimmer:DDA</label>
+       <input id= "Shimmer:DDA" type="text" placeholder="Several measures of variation in amplitude">
+       <br><br>
+       <label for="NHR">NHR</label>
+       <input id= "NHR" type="text" placeholder="Two measures of ratio of noise to tonal componenets in the voice">
+       <br><br>
+       <label for="HNR">HNR</label>
+       <input id= "HNR" type="text" placeholder="Two measures of ratio of noise to tonal componenets in the voice">
+       <br><br>
+       <label for="status">status</label>
+       <input id= "status" type="text" placeholder="Health status of the subject(one) - Parkinson's, (zero)-healthy">
+       <br><br>
+       <label for="RPDE.D2">RPDE.D2</label>
+       <input id= "RPDE.D2" type="text" placeholder="Two nonlinear dynamical complexity measures">
+       <br><br>
+       <label for="DFA">DFA</label>
+       <input id= "DFA" type="text" placeholder="Signal fractal scaling exponent">
+       <br><br>
+       <label for="spread1">spread1</label>
+       <input id= "spread1" type="text" placeholder="Three nonlinear measures of fundamental frequency">
+       <br><br>
+       <label for="spread2">spread2</label>
+       <input id= "spread2" type="text" placeholder="Three nonlinear measures of fundamental frequency">
+       <br><br>
+       <label for="PPE">PPE</label>
+       <input id= "PPE" type="text" placeholder="Three nonlinear measures of fundamental frequency">
+       <br><br>
+    </div>
+    <div><button>CHECK FOR DISEASE</button>
+    </div>
+</body>
+</html>
